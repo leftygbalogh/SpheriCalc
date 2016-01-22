@@ -19,7 +19,7 @@ public class Spericalc {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("radius? ");
+        System.out.print("sphere radius? ");
         double radius = sc.nextDouble();
         
         double volume = (4*3.1415*radius*radius*radius)/3;
